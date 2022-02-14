@@ -48,7 +48,11 @@ function kuy(){
     var C = document.getElementById("C").value;
     var D = document.getElementById("D").value;
     var E = document.getElementById("E").value;
-
+    A = A.toLowerCase()
+    B = B.toLowerCase()
+    C = C.toLowerCase()
+    D = D.toLowerCase()
+    E = E.toLowerCase()
     count = 0
     error = false
     test = []
